@@ -49,15 +49,6 @@ lea di,str2
 cmp bx,cx 
 jnz noteql
 
-;comp_loop:
-;  mov al,[si] 
-;  mov bl,[di] 
-;  cmp al,bl 
-;  jnz noteql
-;  inc si 
-;  inc di 
-;  loop comp_loop
-
 cld
 repe cmpsb
 jne noteql
