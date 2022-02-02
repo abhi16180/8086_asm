@@ -58,7 +58,7 @@ cld
 
 
 repe cmpsb 
-jnc nopal 
+jne nopal 
 
 
 display msg3
